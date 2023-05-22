@@ -1,0 +1,93 @@
+
+.container{
+  display: flex;
+  flex-direction: column;
+}
+.Front-img{
+width: 225px;
+height: 248px;
+grid-column: 2/2;
+grid-row: 2/3
+}
+.front-container{
+    display:flex;
+    flex-direction:column;
+    grid-column: 3/4;
+    grid-row: 2/3;
+    align-items: center;
+
+}
+.Front-heading{
+    
+}
+button{
+  width: 100px;
+  height: 20px;
+  align-self: center;
+
+}
+.Front-button{
+}
+.logo-img{
+  grid-column: 1/1; 
+  grid-row: 1/1;
+    width: 150px;
+    height: 150px;
+     align-self: start; 
+}
+.Front-page{
+display: grid;
+grid-template-columns: 100px 1fr 1fr;
+grid-template-rows:  100px 1fr;
+place-items: center;
+}
+.About-heading{
+  padding: 50px 80px 50px 50px;
+  transform: rotate(270deg);
+  
+}
+.About-p{
+  padding: 30px;
+}
+.About-content{
+display: flex;
+height: 100px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.About-page{
+display: flex;
+height: 350px;
+justify-content: center;
+align-items: center;
+}
+
+.design-img{
+  display: flex;
+  justify-content: space-between;
+  height: 300px;
+  padding: 50px 50px 50px 50px;
+}
+.design-heading{
+  align-self: center;
+}
+.My-design{
+display: flex;
+flex-direction: column;
+padding-bottom: 100px;
+}
+
+
+.Contact{
+display: flex;
+flex-direction: column;
+align-items: center ; 
+background-color: brown;
+
+}
+.Icon{
+  width: 66px;
+  height: 66px;
+}
